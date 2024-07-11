@@ -1,0 +1,32 @@
+{
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-plugin-file": "^8.1.0",
+    "cordova-plugin-native-ringtones": "^0.2.5",
+    "cordova-plugin-pjsip-wrapper": "github:nsys-jp/cordova-plugin-pjsip-wrapper#dev",
+    "cordova-plugin-wakeuptimer-ef": "github:nsys-jp/cordova-plugin-wakeuptimer-ef"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-wakeuptimer-ef": {},
+      "cordova-plugin-native-ringtones": {},
+      "cordova-plugin-pjsip-wrapper": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
